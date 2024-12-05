@@ -28,7 +28,7 @@ movies = pd.DataFrame(movies_dict)
 similarity = pickle.load(open('similarity.pkl', 'rb'))
 
 selectedMovieName = st.selectbox(
-    "How would you like to be contacted?",
+    "Enter your favorite movie:",
     movies['title'].values
 )
 
